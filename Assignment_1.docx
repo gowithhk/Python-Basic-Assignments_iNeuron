@@ -1,0 +1,67 @@
+Python Basic Assignment - 1
+Harsh Kumar
+gowithhk1999@gmail.com
+
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+Ans.
+
+* is an Expression
+'hello' is a Value
+-87.8 is a  Value
+- is an Expression
+/ is an Expression
++ is an Expression
+6 is a Value
+
+2. What is the difference between string and variable?
+
+Ans. 
+String: String can be written in quotes such: "apple", 'apple'
+Variable: It is the thing in which we can store data just like a container.
+
+3. Describe three different data types.
+
+Ans. 
+1. List - An ordered sequence of items is called list. It is a mutable datatype.
+2. Tuple - It is a sequence of items that are in a order. A tuple cannot be modified. It is immutable.
+3. Strings - It is a sequence of characters.
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans. An expression is a combination of values, variables, operators, and calls to functions.
+       Eg. x = x * 2
+     Expressions need to be evaluated. If you ask Python to print an expression, the interpreter evaluates the expression and displays the result.
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+
+Ans. Expression is made up of values, containers, and mathematical operators (operands) and the statement is just like a command that a python interpreter executes just like the print statement.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans.  23
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Ans. 'spamspamspam' will be the answer for both the statements.
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Ans. Because we cannot start the name of any varible with integers or digits. Therefore, eggs is a valid variable.
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+
+Ans. int(), float(), str()
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten' + 99 + 'burritos' 
+
+Ans. Since, 99 is an integer it cannot be concatenated with a string. To fix this, we must convert the int to str using the str() function. This is also called typecasting.
+'I have eaten' + str(99) + 'burritos'  is the correct statement.
